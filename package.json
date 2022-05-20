@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "test": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.0.4",
+    "@pinia/nuxt": "^0.1.9",
+    "c8": "^7.11.3",
+    "nuxt": "3.0.0-rc.3",
+    "vitest": "^0.12.7",
+    "webpack": "^5.72.1"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "pinia": "^2.0.14",
+    "uuid": "^8.3.2",
+    "vue": "^3.2.34"
+  }
+}
